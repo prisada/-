@@ -16,13 +16,13 @@ namespace ClassLibrary2
             {
                 if (Int32.Parse(a) > 0)
                 { return "" + (Math.Sqrt(Int32.Parse(a))); }
-                else { return "ЧИСЛО ОТРИЦАТЕТЕЛЬНОЕ!!!"; }
+                else { return "ЧИСЛО ОТРИЦАТЕТЕЛЬНОЕ!!!!"; }
             }
             if (b.Trim() != "")
             {
                 if (Int32.Parse(b) > 0)
                 { return "" + (Math.Sqrt(Int32.Parse(b))); }
-                else { return "ЧИСЛО ОТРИЦАТЕТЕЛЬНОЕ!!!"; }
+                else { return "ЧИСЛО ОТРИЦАТЕТЕЛЬНОЕ!!!!"; }
             }
             else return "";
         }
